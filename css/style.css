@@ -1,0 +1,149 @@
+body{
+    background-color: rgb(172, 218, 218);
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    width:100%;
+    height: 100px;
+    background-color: black;
+    color: azure;
+    font-size:55px;
+    float: left;
+    text-align: center;
+    position:sticky;
+    top:0px;
+    margin: auto;
+}
+
+.header:hover{
+    width:100%;
+    height: 100px;
+    background-color: black;
+    color: azure;
+    font-size:60px;
+    float: left;
+    text-align: center;
+    position: sticky;
+    margin: auto;
+    top:0px;
+    overflow: hidden;
+}
+.footer{
+    width:100%;
+    height: 45px;
+    background-color: black;
+    color: azure;
+    font-size:25px;
+    float: left;
+    text-align: center;
+    position: sticky;
+    margin-top:600px;
+    bottom:0px;
+    overflow: hidden;
+}
+.footer1{
+    width:100%;
+    height: 40px;
+    background-color: black;
+    color: azure;
+    font-size:25px;
+    float: left;
+    text-align: center;
+    position: sticky;
+    margin-top:330px;
+    bottom:2px;
+    overflow: hidden; 
+}
+
+#home_page{
+    background-color: bisque;
+    top:25vh;
+    border: 2px solid black;
+    padding-left: 50px;
+    padding-right: 0px; 
+    padding-top: 25px;
+    height: 25vh;
+    width:50px;
+}
+#login_home_page{
+    background-color:aquamarine;
+    border: 1px solid rgb(224, 232, 232);
+    top:25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    height:38vh;
+    width:50vw;
+}
+#register_home_page{
+    background-color:wheat;
+    border: 1px solid cadetblue;
+    top:25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    height:54vh;
+    width:50vw;
+}
+#header{
+    background-color:rgb(16, 16, 16);
+    color:  azure;;
+    height:10vh;
+    width:101vw;
+    padding-top:10px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    position: sticky;
+    margin-top:0px;
+    overflow: hidden;
+}
+
+
+#left_sidebar{
+    margin-top:50px;
+    width:13vw;
+    height:30vh;
+    display: inline-block;
+    
+}
+#left_sidebar table tr{
+    background-color: #0096FF;
+    color:white;
+    font-size: 18px;
+
+}
+#left_sidebar table tr:hover{
+    background-color: #e6ebe5;
+    text-decoration: none;
+    color:black;
+
+}
+.link{
+    text-decoration: none;
+    color:rgb(232, 235, 235);
+}
+.link:hover{
+    text-decoration: none;
+    background-color: #f5f7f8;
+    color:rgb(9, 9, 9);;
+} 
+.link1{
+    text-decoration: none;
+    color:rgb(247, 238, 238);
+}
+.link1:hover{
+    text-decoration: none;
+    background-color: #fdfbfb;
+    color:rgb(19, 19, 19);;
+} 
+#right_sidebar{
+ padding: 35px;
+ height:75vh;
+ width:75vw;
+ display: inline-block;
+ color:rgb(16, 15, 15);
+ 
+}
+
